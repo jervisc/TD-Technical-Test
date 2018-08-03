@@ -43,6 +43,10 @@
     .width-200px{
         width: 200px;
     }
+
+    .margin-bottom-0px{
+        margin-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -57,8 +61,20 @@
     .margin-left-25px{
         margin-left: 25px;
     }
-    
+
     .mq-margin-bottom-10px{
         margin-bottom: 10px;
+    }
+
+    .mq-width-280px{
+        width: 280px;
+    }
+
+    .mq-padding-0px{
+        padding-top: 0px;
+    }
+    
+    .mq-td-navigation {
+        min-height: 0px;
     }
 }

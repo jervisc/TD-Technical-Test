@@ -30,3 +30,13 @@ hr {
 .margin-left-15px{
     margin-left: 15px;
 }
+
+
+.margin-10px{
+    margin: 10px;
+}
+
+.circle-60{
+    height: 60px !important;
+    width: 60px !important;
+}

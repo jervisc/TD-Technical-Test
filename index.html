@@ -17,20 +17,39 @@
     </head>
 
     <body>
-        <!–– Header ->
-        <nav class="td_rq_menu td-navigation td-left-menu" role="navigation" aria-label="Main Navigation" aria-hidden="false">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="td-header td-nav-transition visible-xs visible-sm td-sticky-top">
+            <button type="button" class="td-toggle-left-canvas">
+                <span class="td-forscreenreader">Toggle navigation</span> <span class="td-icon-bar"></span> <span class="td-icon-bar"></span> <span class="td-icon-bar"></span>
+            </button>
+            <button type="button" class="td-button-back">
+                <span class="td-icon td-icon-leftCaret"></span>
+            </button>
+            <div class="td-logo-title-container">
+                <a class="td-logo" target="_self" href="" aria-label="TD Insurance"> <img alt="TD Insurance" class="logo-mobileX2" src="Images/TDI_Mob_logo_X2_tcm315-176978.png" height="32">
+                </a>
+            </div>
+            <a href="" class="td-my-insurance-mobile">
+                <span class="td-forscreenreader">Login</span>
+                <i class="fas fa-user-lock color-white"></i>
+            </a>
+        </div>
+
+        <!-- PC header display -->
+        <nav class="td_rq_menu td-navigation td-left-menu mq-td-navigation" role="navigation" aria-label="Main Navigation" aria-hidden="false">
             <div class="td-container" id="navContainer">
                 <div class="td-off-canvas-header">
                     <div class="td-logo-title-container">
                         <span class="td-forscreenreader">Menu</span>
-                        <a id="myAnchor" class="td-logo" href="/" onclick="_self"> <img src="Images/td-shield_tcm315-176980.gif" class="logo-shield" alt="TD Insurance" width="40" height="35"> <img alt="TD Insurance" class="logo-mobile" src="Images/TDI_Mob_logo_tcm315-176979.png"> <img alt="TD Insurance" class="logo-desktop" src="Images/TDI_DT_TabL_logo_tcm315-176760.png">  <img alt="TD Insurance" class="logo-desktopX2" src="Images/TDI_DT_TabL_logo_X2_tcm315-176977.png" height="39">
+                        <a class="td-logo" href="/" onclick="_self"> <img src="Images/td-shield_tcm315-176980.gif" class="logo-shield" alt="TD Insurance" width="40" height="35">
+                            <img alt="TD Insurance" class="logo-desktop" src="Images/TDI_DT_TabL_logo_tcm315-176760.png">
                         </a>
                         <button type="button" class="td-button-close td-close-left visible-sm visible-xs">
                             <span class="td-icon td-icon-close" aria-hidden="true"></span>
                         </button>
                     </div>
                 </div>
-                <ul class="td-nav-left td-nav-list pull-left" id="navLevel1">
+                <ul class="td-nav-left td-nav-list pull-left">
                     <li>
                         <a href="">
                             <span class="icon-small td-icon td-icon-products"></span>
@@ -79,7 +98,7 @@
             </div>
         </nav>
 
-        <div class="td-contentarea">
+        <div class="td-contentarea mq-padding-0px">
             <!-- Main Content -->
             <div class="td-contentarea td-background-grey min-height-650">
                 <div class="td-col td-col-xs-12 td-col-sm-8">
@@ -102,7 +121,7 @@
                                 <div class="td-row">
                                     <div class="col-sm-4 mq-margin-top-50px margin-left-145px col-size-12">
                                         <select class="form-control">
-                                            <option value="null" selected disabled hidden>Title*</option>
+                                            <option value="null" selected hidden>Title*</option>
                                             <option value="00">Ms.</option>
                                         </select>
                                     </div>
@@ -128,7 +147,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="text-right mq-margin-top-50px margin-top-80px">
                                 <button type="button" class="td-button td-button-primary">Cancel</button>
                                 <button type="button" class="td-button margin-left-15px td-button-secondary">Submit</button>
@@ -151,12 +169,12 @@
                 </div>
             </div>
 
-            <!–– Footer ->
+            <!-- Footer -->
             <footer>
                 <div class="td-container">
                     <div class="td-row">
                         <div class="td-footer-content td-col-xs-12" style="background-image:url('Images/footer_seat_tcm315-176757.png');">
-                            <p class="td-footer-heading td-copy-align-centre" property="s:heading">Need to talk to us directly?
+                            <p class="td-footer-heading td-copy-align-centre mq-width-280px" property="s:heading">Need to talk to us directly?
                                 <a href="" target="_self" class="td-contact-link remove-underline">Contact
                                     <span class="td-link-lastword">us
                                     </span>
@@ -165,40 +183,40 @@
                             </p>
                             <hr color="green" width="50%" >
                             <div class="td-footer-links td-copy-align-centre td-copy-white">
-                                <a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Privacy and Security</a>
-                                <a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Legal</a>
-                                <a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Accessibility</a>
-                                <a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">About Us</a>
-                                <a id="myAnchor" class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Careers</a>
+                                <a class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Privacy and Security</a>
+                                <a class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Legal</a>
+                                <a class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Accessibility</a>
+                                <a class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">About Us</a>
+                                <a class="td-copy-white td-link-nounderline td-copy-standard" target="_self" href="">Careers</a>
                             </div>
-                            <hr color="green" class="margin-top-25px" width="50%" >
+                            <hr color="green" class="margin-top-25px margin-bottom-0px" width="50%" >
                             <div class="td-footer-social td-copy-align-centre">
                                 <ul>
                                     <li>
                                         <a class="td-link-nounderline" href="" target="_blank">
-                                            <div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
-                                                <span aria-hidden="true" class="td-icon td-icon-firstIcon"></span>
+                                            <div class="td-icon-wrapper circle-60 td-interactive-icon td-background-darkgreen">
+                                                <i class="fab fa-facebook-f margin-10px color-white"></i>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="td-link-nounderline" href="" target="_blank">
-                                            <div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
-                                                <span aria-hidden="true" class="td-icon td-icon-secondIcon"></span>
+                                            <div class="td-icon-wrapper circle-60 td-interactive-icon td-background-darkgreen">
+                                                <i class="fab fa-twitter margin-10px color-white"></i>
                                             </div>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="td-link-nounderline" href="" target="_blank">
-                                            <div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
-                                                <span aria-hidden="true" class="td-icon td-icon-thridIcon"></span>
+                                            <div class="circle-60 td-icon-wrapper td-interactive-icon td-background-darkgreen">
+                                                <i class="fab fa-youtube margin-10px color-white"></i>
                                             </div>
-                                        </a>
+                                        </a>                                   
                                     </li>
                                     <li>
                                         <a class="td-link-nounderline" href="" target="_blank">
-                                            <div class="td-icon-wrapper td-interactive-icon td-background-darkgreen">
-                                                <span aria-hidden="true" class="td-icon td-icon-fourthIcon"></span>
+                                            <div class="td-icon-wrapper circle-60 td-interactive-icon td-background-darkgreen">
+                                                <i class="fas fa-rss margin-10px color-white"></i>
                                             </div>
                                         </a>
                                     </li>
